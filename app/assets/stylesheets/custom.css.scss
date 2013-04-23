@@ -1,0 +1,45 @@
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+/* Navbar */
+
+#logo {
+	padding:5px;
+	margin-left:10px;
+}
+
+#phone {
+	padding:5px;
+	margin-right:10px;
+}
+
+/* Home page */
+
+body {
+	margin-top:45px;
+}
+
+.caption {
+	max-width:550px;
+}
+
+.hero-unit {
+	margin-top:15px;
+}
+
+
+/* Sign Up Form */
+
+.form {
+	float:right;
+	position:relative;
+	margin-top:-170px;
+	padding:20px;
+}
+
+#mc_embed_signup {
+	width:200px;
+}
