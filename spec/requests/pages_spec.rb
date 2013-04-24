@@ -13,5 +13,6 @@ describe "Pages" do
     it { should have_selector('h2', text: 'In the Mailbox') }
     
     it { should have_link("FamGram", href: root_path) }
+
   end
 end
