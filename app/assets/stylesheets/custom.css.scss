@@ -37,12 +37,14 @@ body {
 
 .columnA {
 	max-width:400px;
-	color:white;
 }
 
 .hero-unit {
 	margin-top:15px;
-	background-image:url('jpeg.jpeg');
+}
+
+.span4 {
+	text-align:center;
 }
 
 /* For mobile */
@@ -53,8 +55,6 @@ body {
 		margin-bottom:0;
 	}
 }
-
-
 
 @media screen and (max-height:450px) {
 	body {
