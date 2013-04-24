@@ -43,3 +43,38 @@ body {
 	margin-top:15px;
 }
 
+/* For mobile */
+
+@media (max-width: 480px) {
+	.hero-unit {
+		padding:5px 20px 20px;
+		margin-bottom:0;
+	}
+}
+
+
+
+@media screen and (max-height:450px) {
+	body {
+		font-size:.6em;
+		line-height:1.4em;
+		padding-top:30px;
+	}
+	
+	.navbar .brand {
+		font-size:15px;
+		line-height:1.4em;
+	}
+	
+	.hero-unit {
+		padding:15px;
+		margin-bottom:0;
+		h1 {
+			font-size:17px;
+		}
+		p {
+			font-size:14px;
+			line-height:20px;
+		}
+	}
+}
