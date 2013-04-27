@@ -1,3 +1,5 @@
+
+
 $baseFontFamily: Oxygen;
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 
@@ -5,6 +7,14 @@ $baseFontFamily: Oxygen;
 @import "bootstrap-responsive";
 
 /* Navbar */
+
+#header {
+  background-color: #ce0815;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter:none;
+  color: white;
+}
 
 #logo {
 	padding:5px;
@@ -39,48 +49,47 @@ body {
 	margin-top:45px;
 }
 
-.columnA {
-	max-width:400px;
+.jumbotron {
+    margin: 80px 0;
 }
 
-.hero-unit {
-	margin-top:15px;
+
+
+body {
+  background-color: #ececee;
+}
+
+/* Bottom Half of Page */
+
+.bottom-header {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #09458d;
+  font-size: 180%;
 }
 
 .span4 {
-	text-align:center;
+  text-align:center;
 }
 
-/* For mobile */
-
-@media (max-width: 480px) {
-	.hero-unit {
-		padding:5px 20px 20px;
-		margin-bottom:0;
-	}
+.bottom-half {
+  background-color:white;
+  margin-top:-331px;
+  height:400px;
+  border-top: 2px solid #d6d8d7;
 }
 
-@media screen and (max-height:450px) {
-	body {
-		font-size:.6em;
-		line-height:1.4em;
-		padding-top:30px;
-	}
-	
-	.navbar .brand {
-		font-size:15px;
-		line-height:1.4em;
-	}
-	
-	.hero-unit {
-		padding:15px;
-		margin-bottom:0;
-		h1 {
-			font-size:17px;
-		}
-		p {
-			font-size:14px;
-			line-height:20px;
-		}
-	}
+/* Navbar Footer */
+
+#footer {
+  background-color: #e1dabd;
+  background-image: none;
+  background-repeat: no-repeat;
+  border-top: 2px solid #8e8178;
+  filter:none;
+  color: #8e8178;
+}
+
+.navbar-fixed-bottom {
+  border-top-color: #8e8178;
 }
