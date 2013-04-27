@@ -41,6 +41,11 @@ $baseFontFamily: Oxygen;
 	width:200px;
 }
 
+.st_sharethis_custom {
+  padding:0px 16px 10px 0;
+  cursor: pointer;
+}
+
 /* Home page */
 
 body {
@@ -72,10 +77,19 @@ body {
 }
 
 .bottom-half {
-  background-color:white;
-  margin-top:-331px;
-  height:400px;
+  background-color:#fcfcfc;
+  margin-top:-400px;
+  height:350px;
+  width:100%;
   border-top: 2px solid #d6d8d7;
+  border-bottom-left-radius: 30% 20%;
+  border-bottom-right-radius: 30% 20%;
+  z-index: 5;
+  border-bottom: 2px solid #b7af98;
+}
+
+.explain {
+  padding-bottom: 100px;
 }
 
 /* Navbar Footer */
@@ -84,11 +98,16 @@ body {
   background-color: #e1dabd;
   background-image: none;
   background-repeat: no-repeat;
-  border-top: 2px solid #b7af98;
   filter:none;
   color: #8e8178;
 }
 
 .navbar-fixed-bottom {
-  border-top-color: #8e8178;
+  background-color: #e1dabd;
+  z-index: -1;
+  height: 115px;
+}
+
+.email-us {
+  padding-top:70px;
 }
