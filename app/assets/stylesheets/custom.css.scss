@@ -192,7 +192,32 @@ body {
   }
 }
 
+.confirm-share {
+  margin: 0 auto;
+  float: none;
+  width: 200px;
+}
+
 .pop-text {
   width: 590px;
   margin: 0 auto;
+  margin-top: -325px;
+  margin-left:35px;
+  z-index: 10;
+  position:relative;
+}
+
+.share-link p {
+  font-family: chocolateCoveredRaindrops;
+  font-size:200%;
+  color:#0e5686;
+  display:inline;
+}
+
+.share-link input {
+  margin-left:10px;
+  border: 3px solid #dddddd;
+  padding:3px;
+  color: #58595b;
+  font-family: proximaNovaRegular;
 }
