@@ -156,3 +156,43 @@ body {
   padding-top:80px;
   z-index:5;
 }
+
+/* Confirmation page */
+
+.white {
+  position:relative;
+  top:0;
+  left:0;
+  margin-top:32px;
+}
+
+.stripe {
+  margin:auto;
+  position:absolute;
+  margin-left:12px;
+  margin-top:13px;
+}
+
+.confirm-card {
+  width: 700px;
+  margin:0 auto;
+  h2 {
+    font-family: proximaNovaSemibold;
+    color: #7d0404;
+  }
+
+  p {
+    font-family: proximaNovaRegular;
+  }
+
+  h3 {
+    font-family: proximaNovaSemibold;
+    color: #7d0404;
+    text-align:center;
+  }
+}
+
+.pop-text {
+  width: 590px;
+  margin: 0 auto;
+}

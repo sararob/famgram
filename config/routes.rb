@@ -2,7 +2,7 @@ Famgram::Application.routes.draw do
   get "pages/home"
   
   root :to => 'pages#home'
-  get 'confirm' => 'pages#confirm'
+  get 'confirmation' => 'pages#confirmation'
   
   resources :sign_ups
 

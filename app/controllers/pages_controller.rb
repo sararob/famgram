@@ -1,8 +1,7 @@
 class PagesController < ApplicationController
   def home
-    @signup = SignUp.new
   end
   
-  def confirm
+  def confirmation
   end
 end
