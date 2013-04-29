@@ -1,3 +1,41 @@
+<div class="faded-body">
+  <%= render 'layouts/header' %>
+  <div class="container">
+    <% flash.each do |name, msg| %>
+        <div class="alert alert-<%= name == :notice ? "success" : "error" %>">
+          <a class="close" data-dismiss="alert">×</a>
+          <%= msg %>
+        </div>
+    <% end %>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
+          <div class="jumbotron">
+            <div class="row-fluid">
+              <div class="columnA pull-left">
+                <%= image_tag('postcard1.png') %>
+              </div>
+              <div class="form columnB pull-right">
+                <%= render 'form' %>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container explain">
+      <%= render 'explain' %>
+    </div>
+    <%= render 'layouts/footer' %>
+  </div>
+  <div class="bottom-half"></div>
+</div>
+
+<div class="transparent-cover">
+</div>
+
 <div class="confirm-card">
   <div class="stripe"><%= image_tag('stripebackground.png') %></div>
   <div class="white"><%= image_tag('whitebackground.png') %></div>

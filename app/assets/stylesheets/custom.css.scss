@@ -159,6 +159,8 @@ body {
 
 /* Confirmation page */
 
+/* Card */
+
 .white {
   position:relative;
   top:0;
@@ -176,6 +178,8 @@ body {
 .confirm-card {
   width: 700px;
   margin:0 auto;
+  z-index:10;
+  margin-top:-850px;
   h2 {
     font-family: proximaNovaSemibold;
     color: #7d0404;
@@ -220,4 +224,25 @@ body {
   padding:3px;
   color: #58595b;
   font-family: proximaNovaRegular;
+}
+
+/* Transparent Background */
+
+.transparent-cover {
+  min-height: 140%;
+  min-width: 100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:0;
+  background-color:black;
+  opacity:.5;
+}
+
+.faded-body {
+  opacity:.5;
+  position:relative;
+  z-index:-1;
+  min-height: 100%;
+  min-width: 100%;
 }
