@@ -72,6 +72,7 @@ body {
 
 .columnB {
   z-index: 5;
+  margin-right:100px;
 }
 
 body {
@@ -92,6 +93,10 @@ body {
 }
 
 /* Bottom Half of Page */
+
+.columnA {
+  margin-left:100px;
+}
 
 .bottom-header {
   color: #09458d;
@@ -128,7 +133,7 @@ body {
 }
 
 .explain {
-  padding-bottom: 100px;
+  padding-bottom: 120px;
   position: relative;
   z-index:6;
 }
