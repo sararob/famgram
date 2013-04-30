@@ -24,11 +24,16 @@
   background-repeat: no-repeat;
   filter:none;
   color: white;
+  border-bottom: 1px solid #7d0504;
 }
 
 #logo {
 	padding:5px;
 	margin-left:10px;
+}
+
+.navbar .brand {
+  margin-left:23px;
 }
 
 #phone {
@@ -100,7 +105,7 @@ body {
 /* Bottom Half of Page */
 
 .columnA {
-  margin-left:70px;
+  margin-left:35px;
 }
 
 .bottom-header {
@@ -113,6 +118,10 @@ body {
   text-align:center;
   width:300px;
   padding:35px;
+}
+
+#whole-family {
+  margin-top: 11px;
 }
 
 .span4 img {
