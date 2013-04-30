@@ -410,7 +410,7 @@ form li.buttons {
   height: 40px;
   position: relative;
   clear: both;
-  padding: 10px 1% 10px 1%;
+  padding: 0px 1% 10px 1%;
   font-family: proximaNovaRegular;
 }
 form li.buttons input {
@@ -419,6 +419,7 @@ form li.buttons input {
   background-color: #06448d;
   color:#fffeff;
   padding:6px 12px;
+  border: 1px solid #06448d;
 }
 input.btTxt {
   width: auto;
