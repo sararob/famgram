@@ -50,13 +50,14 @@
 	}
 }
 
-.share-this {
-	width:200px;
+/* For Add This Buttons*/
+
+.addthis_button_email img {
+  padding-right:10px;
 }
 
-.st_sharethis_custom {
-  padding:0px 16px 10px 0;
-  cursor: pointer;
+.addthis_button_facebook img {
+  padding-right: 10px;
 }
 
 /* Home page */
@@ -99,7 +100,7 @@ body {
 /* Bottom Half of Page */
 
 .columnA {
-  margin-left:100px;
+  margin-left:70px;
 }
 
 .bottom-header {
@@ -239,6 +240,13 @@ body {
   padding:3px;
   color: #58595b;
   font-family: proximaNovaRegular;
+}
+
+.add_confirm {
+  margin-left:200px;
+  a {
+    padding:10px;
+  }
 }
 
 /* Transparent Background */

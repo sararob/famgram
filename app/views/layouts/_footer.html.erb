@@ -7,10 +7,13 @@
         <span class="icon-bar"></span>
       </button>
       <div class="nav-collapse container">
-        <ul class="nav share-this share-bottom">
-          <span class='st_sharethis_custom'><%= image_tag('email-brown.png') %></span>
-          <span class='st_sharethis_custom'><%= image_tag('fb-brown.png') %></span>
-          <span class='st_sharethis_custom'><%= image_tag('twitter-brown.png') %></span>
+        <ul class="nav share-bottom">
+          <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=undefined"></script>
+          <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+            <a class="addthis_button_email"><%= image_tag('email-brown.png') %></a>
+            <a class="addthis_button_facebook"><%= image_tag('fb-brown.png') %></a>
+            <a class="addthis_button_twitter"><%= image_tag('twitter-brown.png') %></a>
+          </div>
         </ul>
         <div class="row">
           <ul class="nav pull-right email-us">
