@@ -244,7 +244,7 @@ body {
 /* Transparent Background */
 
 .transparent-cover {
-  min-height: 140%;
+  min-height: 180%;
   min-width: 100%;
   position:absolute;
   top:0;
@@ -256,4 +256,8 @@ body {
 
 .faded-body {
   z-index:-1;
+}
+
+.fade-header {
+  z-index: -1;
 }
