@@ -5,4 +5,3 @@ $(document).ready ->
   $('.transparent-cover').click ->
     $('.transparent-cover').remove()
     $('.confirm-card').remove()
-    $('#fade-header').css "z-index", "+5"
