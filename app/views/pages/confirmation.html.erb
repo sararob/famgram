@@ -1,5 +1,5 @@
 <div class="faded-body">
-<div id="fade-header"><%= render 'layouts/header' %></div>
+  <%= render 'layouts/header' %>
   <div class="">
     <% flash.each do |name, msg| %>
         <div class="alert alert-<%= name == :notice ? "success" : "error" %>">
@@ -11,7 +11,7 @@
       <div class="span12">
         <div class="jumbotron">
           <div class="row-fluid">
-            <div class="columnA pull-left span5">
+            <div class="columnA pull-left span6">
               <%= image_tag('postcardphone.png') %>
             </div>
             <div class="form columnB span5">
@@ -35,10 +35,12 @@
 <div class="transparent-cover">
 </div>
 
+
 <div class="confirm-card">
   <div class="stripe"><%= image_tag('stripebackground.png') %></div>
   <div class="white"><%= image_tag('whitebackground.png') %></div>
   <div class="pop-text">
+
     <h2>Thanks for signing up with FamGram!</h2>
     <p>We are just getting started and we'll let you know as soon as we're ready to start sending FamGrams. If you have any questions, feel free to email us at hello@famgram.co</p>
     <h3>Share with family and friends!</h3>
