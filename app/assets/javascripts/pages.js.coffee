@@ -5,3 +5,8 @@ $(document).ready ->
   $('.transparent-cover').click ->
     $('.transparent-cover').remove()
     $('.confirm-card').remove()
+  $('#exit').hover ->
+    $('#exit').css('cursor', 'pointer')
+  $('#exit').click ->
+    $('.transparent-cover').remove()
+    $('.confirm-card').remove()
