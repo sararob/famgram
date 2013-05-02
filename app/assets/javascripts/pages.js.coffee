@@ -6,5 +6,3 @@ $(document).ready ->
     $('#exit').css('cursor', 'pointer')
   $('#exit').click ->
     document.location.href='/'
-  $('.transparent-cover').click ->
-    document.location.href='/'
